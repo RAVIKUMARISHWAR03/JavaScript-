@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    max-width: 34rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219a);
+    border-radius: 10px;
+
+}
+#searchInput{
+    padding: 12px 10px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.301);
+    border-radius: 5px;
+}
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.userContainer .userItem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 15px;
+    background-color:#fafafa1a;
+    width: 100%;
+    height: 4rem;
+}
+.userContainer .userItem .image{
+    height: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.userContainer .userItem img{
+    height: 100% ;
+    width: 100%;
+    object-fit: top;
+}
+.userContainer .userItem.userDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.userContainer .userItem.userDetails h3{
+    font-size: 15px;
+}
+.userContainer .userItem.userDetails p{
+    font-size: 12px;
+}
