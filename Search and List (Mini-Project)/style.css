@@ -21,7 +21,6 @@ html, body {
     padding: 50px 20px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.219a);
     border-radius: 10px;
-
 }
 #searchInput{
     padding: 12px 10px;
@@ -66,4 +65,5 @@ html, body {
 }
 .userContainer .userItem.userDetails p{
     font-size: 12px;
+
 }
