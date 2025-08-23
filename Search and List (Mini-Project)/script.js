@@ -37,7 +37,7 @@ const users = [
       "https://images.news18.com/ibnlive/uploads/2022/06/madan-lal-1.jpg",
     name: "Madan Lal",
     email: "madanlal73@.com",
-  },
+  }
 ]
 
 function renderUsers(arr) {
@@ -76,3 +76,4 @@ function handleSearch(e) {
 }
 
 searchInput.addEventListener('input', handleSearch)
+
