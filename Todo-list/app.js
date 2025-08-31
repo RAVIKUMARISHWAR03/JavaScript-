@@ -39,4 +39,5 @@ function handleRemoveList(id){
     list = filteredList
     renderList(list)
 } 
-addBtn.addEventListener('click',handleAddList)
+
+addBtn.addEventListener('click',handleAddList) ;
