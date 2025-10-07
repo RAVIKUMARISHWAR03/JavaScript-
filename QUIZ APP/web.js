@@ -29,7 +29,6 @@ const quiz = [
         ans3text: "1994",
         ans4text: "none of the above",
         answer: "1995",
-
     }
 ]
 const question = document.getElementById('quiz-question');
@@ -50,7 +49,6 @@ console.log(option_b.textContent);
 console.log(option_c.textContent);
 console.log(option_d.textContent);
 
-
 const submit = document.getElementById('submit');
 
 let currentQuestion = 0;
@@ -61,7 +59,6 @@ console.log(quiz[currentQuestion].ans1text);
 console.log(quiz[currentQuestion].ans2text);
 console.log(quiz[currentQuestion].ans3text);
 console.log(quiz[currentQuestion].ans4text);
-
 
 question.textContent = quiz[currentQuestion].question;
 option_a.textContent = quiz[currentQuestion].ans1text;
@@ -98,3 +95,4 @@ submit.addEventListener("click", () => {
         }
     }
 });
+
