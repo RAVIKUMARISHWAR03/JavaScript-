@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     align-items: center;
@@ -11,7 +10,6 @@ body{
     background-color: antiquewhite;
     height: 100vh;
 }
-
 .container{
     cursor: pointer;
     user-select: none;
@@ -36,4 +34,5 @@ span.active {
         transform: scale(2.5) translate(0,-180px);
     }
     
+
 }
