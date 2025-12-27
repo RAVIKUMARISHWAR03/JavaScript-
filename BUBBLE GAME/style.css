@@ -28,6 +28,7 @@ html,body{
 }
 
 #p-top{
+    padding: 0px 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,11 +43,40 @@ html,body{
     align-items: center;
     gap: 20px;
 }
+.elem h3{
+    font-weight: 500;
+}
 .box{
-    font-weight:600 ;
-    font-size:25px;
+    font-weight:550 ;
+    font-size:20px;
     background-color: #fff;
-    color: aqua;
+    color: rgb(78, 193, 122);
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+#p-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    background-color:  rgb(166, 215, 166);
+    border-radius: 50%;
+    font-weight: 500;
+}
+.bubble:hover{
+    background-color: rgb(29, 163, 29);
+    cursor: pointer;
 }
