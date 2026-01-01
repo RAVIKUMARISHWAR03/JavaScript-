@@ -17,7 +17,7 @@ That we are using in this task
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Example Color |<img width="127" height="128" alt="image" src="https://github.com/user-attachments/assets/005e73a8-152e-4420-b5ef-e2a454334d1a" />
-  #a52a2a |
+| Example Color | ![#a52a2a](<img width="187" height="199" alt="image" src="https://github.com/user-attachments/assets/c197de73-328f-447e-8333-d3b46b7a17be" />
+) #a52a2a |
 
 
