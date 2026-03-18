@@ -6,6 +6,7 @@ Timer is 30 seconds
 This is basic game that using HTML CSS5 JAVASCRIPT 
 JAVASCRIPT we are using bubbling handling 
 
+
 ## Screenshots
 
 ![App Screenshot]
