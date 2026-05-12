@@ -5,10 +5,12 @@ function appendValue(text){
     }
     display.innerText = `${display.innerText}${text}`
 }
+
 function clearDisplay(){
 
     display.innerText ='0'
 }
+
 function calculate(){
     try {
         display.innerText = eval(display.innerText)
