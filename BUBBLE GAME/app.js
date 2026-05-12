@@ -33,6 +33,7 @@ function runTimer (){
       }
     }, 1000);
 };
+
 document.querySelector("#p-bottom").addEventListener("click", function(details){
        var clickedNum = Number(details.target.textContent);
        if(clickedNum === hitRn){
