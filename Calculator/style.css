@@ -4,11 +4,13 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 html,
 body {
   width: 100%;
   height: 100px;
 }
+
 .calculator {
   background-color: #222222;
   max-width: 25rem;
@@ -17,6 +19,7 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
+
 .display {
   width: 100%;
   height: 5rem;
@@ -29,6 +32,7 @@ body {
   padding: 0 10px;
   font-size: 30px;
 }
+
 .buttonsContainer {
   user-select: none;
   display: grid;
@@ -37,6 +41,7 @@ body {
   gap: 1rem;
   padding: 20px 0;
 }
+
 .buttonsContainer button {
   width: 100%;
   background-color: #333333;
@@ -47,19 +52,24 @@ body {
   padding: 20px;
   transition: all linear 0.3s;
 }
+
 .buttonsContainer button:hover {
   scale: 1.1;
 }
+
 .buttonsContainer button:active {
   scale: 0.9;
 }
+
 .buttonsContainer .clearBtn {
   background-color: #dc3545;
   grid-column: span 3;
 }
+
 .buttonsContainer .operator {
   background-color: #ff9500;
 }
+
 .buttonsContainer .equalTo {
   grid-column: span 2;
   background-color: #1e90ff;
