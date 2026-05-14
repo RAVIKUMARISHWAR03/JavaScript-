@@ -3,6 +3,7 @@ function appendValue(text){
     if(display.innerText ==='0'|| display.innerText === 'Error' || display.innerText ==='Infinity' ){
         display.innerText = text
     }
+    
     display.innerText = `${display.innerText}${text}`
 }
 
@@ -12,6 +13,7 @@ function clearDisplay(){
 }
 
 function calculate(){
+    
     try {
         display.innerText = eval(display.innerText)
     } catch (error) {
