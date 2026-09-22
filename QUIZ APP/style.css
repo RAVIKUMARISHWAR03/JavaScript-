@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 body{
     background-color: rgb(132, 182, 226);
     display: flex;
@@ -11,6 +12,7 @@ body{
     align-items: center;
     height: 100vh;
 }
+
 
 .quiz-container{
     border: 1px solid black;
@@ -21,6 +23,7 @@ body{
     background-color: azure;
     position: relative;
 }
+
 
 #quiz-question{
     font-size: 1.5rem;
